@@ -68,3 +68,28 @@ li {
     top: 0px;
     right: 10px;
 }
+
+.autenticacao li .botao {
+    background-color: #F44728;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #94DFC6;
+}
+
+.conteudo {
+    position: relative;
+    margin: 60px;
+}
+
+@media(max-width: 880px) {
+    .autenticacao {
+        display: none;
+    }
+}
+
+@media(max-width: 590px) {
+    .navegacao {
+        display: none;
+    }
+}
